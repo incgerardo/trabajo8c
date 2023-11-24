@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Página de ingreso</title>
+  <link rel="stylesheet" type="text/css" href="estilos/principal.css">
+  <link rel="stylesheet" type="text/css" href="estilos/login.css">
+</head>
+<body>
+  <div id="app">
+    <img width="240" height="57" src="./logos/logo-gamma.gif">
+    <p>
+    </p><div class="central"><h1>SISTEMA INTEGRAL DE MANTENIMIENTO</h1></div>
+    <div class="estado_invisible">USUARIO O CLAVE INCORRECTOS</div>
+    <fieldset>
+      <legend>LOGIN:</legend>
+      <table class="form_tabla">
+      <form name="login" action="/sim2/login.php" method="post"></form>
+        
+        <input type="hidden" name="visto" value="s">
+        <tbody><tr class="form_fila"><td class="form_col_izq"><label for="idoperador">NOMBRE DE USUARIO:</label></td><td class="form_col_der"><input type="text" name="idoperador" id="idoperador"></td></tr>
+        <tr class="form_fila"><td class="form_col_izq"><label for="clave">CLAVE:</label></td><td class="form_col_der"><input type="password" name="clave" id="clave"></td></tr>
+        <tr class="form_fila"><td colspan="2" align="center" class="form_col_cen"><input type="submit" value="ACEPTAR" class="boton_enviar"></td></tr>
+          <tr class="form_fila"><td colspan="2" align="center" class="form_col_cen"><p><a href="solicitud_clave_email.php">¿OLVIDO SU CLAVE?</a></p></td></tr>
+      
+      </tbody></table>
+    </fieldset>
+    <div id="elesys"><a href="http://www.elesys.com.ar" target="_blank">Elesys</a></div>
+  </div>
+
+</body></html>
